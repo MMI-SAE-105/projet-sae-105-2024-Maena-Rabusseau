@@ -1,0 +1,33 @@
+.en {
+    color: var(--blanc);
+    font-family: var(--font-opensans);
+    font-size: 1.5rem;
+    display: flex;
+    position: absolute;
+    right: 85px;
+    top: 13px;
+
+}
+
+
+.fr {
+    color: var(--blanc);
+    font-family: var(--font-opensans);
+    font-size: 1.5rem;
+    display: flex;
+    position: absolute;
+    right: 115px;
+    top: 13px;
+
+}
+
+.header__titre {
+    color: var(--blanc);
+    font-family: var(--font-quicksand);
+    font-size: var(2rem);
+    font-weight: normal;
+}
+.intro{
+    color: var(--noir);
+    font-family: var(--font-opensans);
+}

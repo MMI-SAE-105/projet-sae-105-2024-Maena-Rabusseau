@@ -1,3 +1,9 @@
+.header{
+    background-color: var(--bleu-clair);
+}
+
+
+
 .header__logo-image{
 background-color: var(--gris);
 }

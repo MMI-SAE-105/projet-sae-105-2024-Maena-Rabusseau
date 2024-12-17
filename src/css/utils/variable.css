@@ -11,15 +11,16 @@
 
   /*Taille du texte */
 
-/* heading 4 */--txt-XL : 0.875rem
-/* link */ --txt-XXS : 0.938rem
-/* body 3.5 */ --txt-XS : 0.938rem
-/* body 3 */--txt-S :0.938rem
-/* body 1.5 */--txt-M :1.25rem
-/* body 1 */--txt-L :1.25rem
+/* heading 4 */--txt-XXS : 0.875rem
+/* link */ --txt-XS : 0.938rem
+/* body 3.5 */ --txt-S : 0.938rem
+/* body 3 */--txt-M :0.938rem
+/* body 1.5 */--txt-L :1.25rem
+/* body 1 */--txt-XL :1.25rem
 /* heading 3 */--txt-XXL : 1rem
-/* heading 2 */--txt-XXXL :1.563rem;
-/*heading 1 */--txt-XXXXL :2rem;
+/*Fr/En */--txt-XXXL :1.5rem
+/* heading 2 */--txt-XXXXL :1.563rem;
+/*heading 1 */--txt-XXXXXL :2rem;
 
 
 
