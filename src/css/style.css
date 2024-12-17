@@ -1,5 +1,6 @@
 /*font */
-@import url();
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap');
+
 
 /* Vendors */
 @import "vendors/normalize.css";
