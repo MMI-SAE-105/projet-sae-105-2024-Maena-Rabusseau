@@ -82,36 +82,36 @@
     </header>
 
 
-    <main>
+    <main role="main">
         <p>Si vous avez des questions ou si le site ne fonctionne pas, n'hésitez pas à me contacter. </p>
 
 <div class="contact">
-    <p>Prénom* </p>
+    <label for="prenom">Prénom *</label>
     <svg class="contact__rectangle" xmlns="http://www.w3.org/2000/svg" width="300" height="100"
         viewBox="0 0 400 100">
         <rect class="contact__boite" width="300" height="50" rx="20" ry="2" fill="blue " />
     </svg>
 
-    <p>Nom* </p>
+    <label for="nom">Nom* </label>
     <svg class="contact__rectangle" xmlns="http://www.w3.org/2000/svg" width="300" height="100"
         viewBox="0 0 400 100">
         <rect class="contact__boite" width="300" height="50" rx="20" ry="2" fill="blue " />
     </svg>
 
-    <p>Adresse mail* </p>
+    <label for="mail"></label>Adresse mail* </label>
     <svg class="contact__rectangle" xmlns="http://www.w3.org/2000/svg" width="300" height="100"
         viewBox="0 0 400 100">
         <rect class="contact__boite" width="300" height="50" rx="20" ry="2" fill="blue " />
     </svg>
 
-    <p>Message* </p>
+    <label for="message"></label>Message* </label>
     <svg class="contact__rectangle" xmlns="http://www.w3.org/2000/svg" width="300" height="100"
         viewBox="0 0 400 100">
         <rect class="contact__boite" width="300" height="150" rx="20" ry="2" fill="blue " />
     </svg>
 
 
-    <button class="button__musique" aria-label="Envoyer le message ">Envoyer </button>
+    <button class="button__musique" aria-label="Envoyer le message " >Envoyer </button>
 
 </div>
 
@@ -119,11 +119,11 @@
     </main>
 
 
-    <footer class="footer">
+    <footer class="footer"  role="contentinfo" aria-label="Pied de page">
         <div class="footer__content">
             <h2 class="Prénom__nom"> Maéna Rabusseau</h2>
             <h2 class="Prénom__nom">Groupe C1</h2>
-            <a class="Prénom__nom" href="mailto:maena.rabusseau@edu.univ-fcomte.fr">Envoyer un email</a>
+            <a class="Prénom__nom" href="mailto:maena.rabusseau@edu.univ-fcomte.fr"aria-label="Envoyer un email à Maéna">Envoyer un email</a>
 
             <ul class="footer__links">
                 <li> <a class="footer__link" href="Galerie.html">Galerie</a></li>
@@ -136,18 +136,19 @@
         </div>
         <div class="reseaux">
 
-            <a class="reseaux__lien" href="https://www.instagram.com">
-                <img class="reseaux__logo" src="assets/img/logos/logoinstagram.avif" alt="Suivez nous sur Instagram">
+            <a class="reseaux__lien" href="https://www.instagram.com" aria-label="Suivez-nous sur Instagram" target="_blank" rel="noopener noreferrer">
+                
+                <img class="reseaux__logo" src="assets/img/logos/logoinstagram.avif" alt="Logo Instagram">
 
             </a>
-            <a class="reseaux__lien" href="https://www.facebook.com">
-                <img class="reseaux__logo" src="assets/img/logos/logofacebook.avif" alt="Suivez nous sur Facebook">
+            <a class="reseaux__lien" href="https://www.facebook.com" aria-label="Suivez-nous sur Facebook" target="_blank" rel="noopener noreferrer">
+                <img class="reseaux__logo" src="assets/img/logos/logofacebook.avif" alt="Logo Facebook">
             </a>
-            <a class="reseaux__lien" href="www.linkedin.com/in/maéna-rabusseau-681b37336">
-                <img class="reseaux__logo" src="assets/img/logos/logolinkedin.avif" alt="Suivez nous sur linkedin">
+            <a class="reseaux__lien" href="https://www.linkedin.com/in/maéna-rabusseau-681b37336"  aria-label="Suivez-nous sur LinkedIn" target="_blank" rel="noopener noreferrer">
+                <img class="reseaux__logo" src="assets/img/logos/logolinkedin.avif" alt="Logo linkedin">
             </a>
             <p>Projet réalisé en 2024 dans le cadre d’un exercice pédagogique au département <a
-                    href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/"> MMI de
+                    href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/"  aria-label="En savoir plus sur le programme MMI Montbéliard"> MMI de
                     Montbéliard</a></p>
 
 

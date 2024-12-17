@@ -68,13 +68,13 @@
         </div>
     </header>
 
-    <main>
+    <main role="main">
         <div>
             <p>
                 Le livre Guide de l'eau, publié en 2003 par Céline Rouyrre, dresse un constat alarmant sur le gaspillage
                 et la pollution de l’eau
             </p>
-            <h2>
+            <h2 class="titre__h2">
                  Le Guide de l'eau" : Un cri d'alarme pour la préservation de notre ressource vitale 
 
             </h2>
@@ -101,7 +101,7 @@
                 l'échelle d'une ville ou d'un pays. Rouyrre insiste sur le caractère vital de l'eau, souligné que
                 seulement 3% de l'eau sur Terre est douce, le reste étant salé. Cette rareté relative de l'eau potable
                 rend d'autant plus cruciale la lutte contre le gaspillage et la pollution. </p>
-            <img src="assets/img/medias/photoeau.avif" alt="Image de l'eau">
+            <img src="assets/img/medias/photoeau.avif" alt="Image de l'eau"  loading="lazy">
 
         </div>
 
@@ -119,7 +119,7 @@
 
         </div>
 
-        <button class="button" aria-label="Voir l'objet la douche ">La douche </button>
+        <button class="button" aria-label="Voir l'objet la douche "    aria-controls="contenu-douche">La douche </button>
         <div>
             <p><strong>Mini biographie :
 
@@ -139,46 +139,46 @@
 
 
 
-        <footer class="footer">
-            <div class="footer__content">
-                <h2 class="Prénom__nom"> Maéna Rabusseau</h2>
-                <h2 class="Prénom__nom">Groupe C1</h2>
-                <a class="Prénom__nom" href="mailto:maena.rabusseau@edu.univ-fcomte.fr">Envoyer un email</a>
+    <footer class="footer"  role="contentinfo" aria-label="Pied de page">
+        <div class="footer__content">
+            <h2 class="Prénom__nom"> Maéna Rabusseau</h2>
+            <h2 class="Prénom__nom">Groupe C1</h2>
+            <a class="Prénom__nom" href="mailto:maena.rabusseau@edu.univ-fcomte.fr"aria-label="Envoyer un email à Maéna">Envoyer un email</a>
 
-                <ul class="footer__links">
-                    <li> <a class="footer__link" href="Galerie.html">Galerie</a></li>
-                    <li> <a class="footer__link" href="Contact.html">Contact</a></li>
-                    <li> <a class="footer__link" href="A-propos.html">À propos</a></li>
-                    <li> <a class="footer__link" href="Autre-projets.html">Autres projets</a></li>
+            <ul class="footer__links">
+                <li> <a class="footer__link" href="Galerie.html">Galerie</a></li>
+                <li> <a class="footer__link" href="Contact.html">Contact</a></li>
+                <li> <a class="footer__link" href="A-propos.html">À propos</a></li>
+                <li> <a class="footer__link" href="Autre-projets.html">Autres projets</a></li>
 
-                </ul>
+            </ul>
 
-            </div>
-            <div class="reseaux">
+        </div>
+        <div class="reseaux">
 
-                <a class="reseaux__lien" href="https://www.instagram.com">
-                    <img class="reseaux__logo" src="assets/img/logos/logoinstagram.avif"
-                        alt="Suivez nous sur Instagram">
+            <a class="reseaux__lien" href="https://www.instagram.com" aria-label="Suivez-nous sur Instagram" target="_blank" rel="noopener noreferrer">
+                
+                <img class="reseaux__logo" src="assets/img/logos/logoinstagram.avif" alt="Logo Instagram">
 
-                </a>
-                <a class="reseaux__lien" href="https://www.facebook.com">
-                    <img class="reseaux__logo" src="assets/img/logos/logofacebook.avif" alt="Suivez nous sur Facebook">
-                </a>
-                <a class="reseaux__lien" href="www.linkedin.com/in/maéna-rabusseau-681b37336">
-                    <img class="reseaux__logo" src="assets/img/logos/logolinkedin.avif" alt="Suivez nous sur linkedin">
-                </a>
-                <p>Projet réalisé en 2024 dans le cadre d’un exercice pédagogique au département <a
-                        href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/"> MMI de
-                        Montbéliard</a></p>
+            </a>
+            <a class="reseaux__lien" href="https://www.facebook.com" aria-label="Suivez-nous sur Facebook" target="_blank" rel="noopener noreferrer">
+                <img class="reseaux__logo" src="assets/img/logos/logofacebook.avif" alt="Logo Facebook">
+            </a>
+            <a class="reseaux__lien" href="https://www.linkedin.com/in/maéna-rabusseau-681b37336"  aria-label="Suivez-nous sur LinkedIn" target="_blank" rel="noopener noreferrer">
+                <img class="reseaux__logo" src="assets/img/logos/logolinkedin.avif" alt="Logo linkedin">
+            </a>
+            <p>Projet réalisé en 2024 dans le cadre d’un exercice pédagogique au département <a
+                    href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/"  aria-label="En savoir plus sur le programme MMI Montbéliard"> MMI de
+                    Montbéliard</a></p>
 
 
-                <a class="reseaux__lien"
-                    href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">
-                    <img class="reseaux__logo" src="assets/img/logos/mmilogoblanc1.avif" alt="MMI Montbéliard">
-                </a>
+            <a class="reseaux__lien"
+                href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">
+                <img class="reseaux__logo" src="assets/img/logos/mmilogoblanc1.avif" alt="MMI Montbéliard">
+            </a>
 
-            </div>
-        </footer>
+        </div>
+    </footer>
 </body>
 
 </html>
