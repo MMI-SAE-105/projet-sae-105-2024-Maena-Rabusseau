@@ -1,0 +1,41 @@
+.footer{
+    background-color: var(--bleu-clair);
+    color: var(--blanc);
+}
+.Prénom__nom{
+    color: var(--blanc);
+    font-family: var(--font-opensans);
+    font-weight: normal;
+    font-size: 1.25rem;
+
+}
+
+.footer__link{
+    color: var(--blanc);   
+    font-size: 1.25rem;
+}
+
+
+.reseaux__logo{
+    color: var(--blanc);   
+    
+}
+.projet__mmi{
+    color: var(--blanc);  
+    font-size: 1.25rem;
+    
+  
+}
+.reseaux__logo-mmi{
+margin-right: 10px;
+}
+
+.reseaux__logo{
+   display: flex;
+   justify-content: center;
+   align-items: right;
+    gap: 80px;
+    margin: 15px;
+  
+   
+}

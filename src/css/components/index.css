@@ -26,8 +26,58 @@
     font-family: var(--font-quicksand);
     font-size: var(2rem);
     font-weight: normal;
+    display: flex;
+    justify-content: center;
 }
 .intro{
     color: var(--noir);
     font-family: var(--font-opensans);
+    font-size: 1.25rem;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  width: 370px;
+   
+}
+.image__index{
+    width: 323px;
+height: 359px;
+border-radius: 20px 20px 0px 0px;
+
+}
+.carte__article{
+    background-color: var( --bleu-foncé-1);
+    border-radius: 20px;
+    
+
+}
+.titre__index{
+    color: var(--blanc);
+    font-family: var(--font-opensans);
+    font-weight: normal;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: left;
+}
+.carte__texte{
+    color: var(--blanc);
+    font-family: var(--font-opensans);
+    font-weight: normal;
+    font-size:0.875rem ;
+}
+.button__lire-index{
+    font-size: 0.938rem;
+    color: var(--bleu-foncé-1);
+    background-color:var(--blanc);
+    border-radius: 11px;
+    display: flex;
+    width: 130px;
+    height: 40px;
+    padding: 20px 25px;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+   
+    margin: 0px 230px 
+
 }
