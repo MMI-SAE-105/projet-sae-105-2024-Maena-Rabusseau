@@ -8,8 +8,8 @@ body {
     font-family: var(--font-opensans);
 }
 
-.image__index { 
-    width: 323px;
-    height: 603px;
-    display: flex;
-    margin: 0 27px;}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

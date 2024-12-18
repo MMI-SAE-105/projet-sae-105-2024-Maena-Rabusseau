@@ -18,5 +18,9 @@
 
 /* Components */
 @import "components/menu.css";
-@import"components/index.css";
-@import"components/La-douche.css" ;
+@import "components/index.css";
+@import "components/La-douche.css";
+@import "components/realisateur.css";
+@import"components/button.css";
+@import"components/hero.css";
+@import"components/bladerunner.css";

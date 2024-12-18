@@ -1,4 +1,4 @@
-.header{
+.header {
     background-color: var(--bleu-clair);
     margin: 0;
     padding-top: 30px;
@@ -6,6 +6,12 @@
 
 
 
-.header__logo-image{
-background-color: var(--gris);
+.header__logo-image {
+    background-color: var(--gris);
+    border-radius: 100%;
+    display: flex;
+    justify-content: left;
+    margin-right: 280px;
+    margin-top: -240px;
+   
 }

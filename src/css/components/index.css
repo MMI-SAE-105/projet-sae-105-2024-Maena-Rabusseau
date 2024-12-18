@@ -5,7 +5,7 @@
     display: flex;
     position: absolute;
     right: 85px;
-    top: 13px;
+    top: 25px;
 
 }
 
@@ -17,11 +17,11 @@
     display: flex;
     position: absolute;
     right: 115px;
-    top: 13px;
+    top: 25px;
 
 }
 
-.header__titre {
+.hero__titre {
     color: var(--blanc);
     font-family: var(--font-quicksand);
     font-size: var(2rem);
@@ -29,54 +29,60 @@
     display: flex;
     justify-content: center;
 }
-.intro{
+
+.intro {
     color: var(--noir);
     font-family: var(--font-opensans);
     font-size: 1.25rem;
-  display: flex;
-  justify-content: center;
-  text-align: left;
-  width: 370px;
-  margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    text-align: left;;
+    margin: 0px 10px;
     margin-top: 20px;
     margin-bottom: 30px;
+
+}
+
+.image__index {
+    height: 359px;
+    border-radius: 20px 20px 0px 0px;
+    display: flex; /* Active le mode Flexbox */
+    flex-direction: column; /* Aligne le texte et l'image verticalement */
+    align-items: center; /* Centre le contenu horizontalement */
+    text-align: center; /* Centre le texte */
+    padding: 20px; /* Ajoute des marges internes */
+
+}
+
+.image__index-realisateur {
    
-}
-.image__index{
-    width: 323px;
-height: 359px;
-border-radius: 20px 20px 0px 0px;
-margin: 0 32px;
+    height: 448px;
+    border-radius: 20px 20px 0px 0px;
+    margin: 0 32px;
 
 }
 
-.image__index-realisateur{
-    width: 323px;
-height: 448px;
-border-radius: 20px 20px 0px 0px;
-margin: 0 32px;
+.image__index-film {
+ 
+    height: 448px;
+    border-radius: 20px 20px 0px 0px;
+    margin: 0 32px;
 
 }
 
-.image__index-film{
-    width: 323px;
-height: 448px;
-border-radius: 20px 20px 0px 0px;
-margin: 0 32px;
+.image__index-livre {
+   
+    height: 448px;
+    border-radius: 20px 20px 0px 0px;
+    margin: 0 32px;
 
 }
-.image__index-livre{
-    width: 323px;
-height: 448px;
-border-radius: 20px 20px 0px 0px;
-margin: 0 32px;
 
-}
-.image__index-musique{
-    width: 323px;
-height:151.403px;
-border-radius: 20px 20px 0px 0px;
-margin: 0 32px;
+.image__index-musique {
+   
+    height: 151.403px;
+    border-radius: 20px 20px 0px 0px;
+    margin: 0 32px;
 
 }
 
@@ -86,59 +92,48 @@ margin: 0 32px;
 
 
 
-.carte__article{
-    background-color: var( --bleu-foncé-1);
+.carte__article {
+    background-color: var(--bleu-foncé-1);
     border-radius: 20px;
     margin-bottom: 50px;
     padding-top: 10px;
-   
-    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
 
 }
-.titre__index{
+
+.titre__index {
     color: var(--blanc);
     font-family: var(--font-opensans);
     font-weight: normal;
     font-size: 1.25rem;
-    display: flex;
-    justify-content: left;
-    margin: 0px 20px;
-    margin-bottom: 20px; 
-    margin-top: 20px;
-    
-}
-.carte__texte{
-    color: var(--blanc);
-    font-family: var(--font-opensans);
-    font-weight: normal;
-    font-size:0.875rem ;
-    margin: 0px 20px;
-    width: 360px;
-  
-   
-}
-.carte__texte-musique{
-    color: var(--blanc);
-    font-family: var(--font-opensans);
-    font-weight: normal;
-    font-size:0.875rem ;
-    margin: 0px 20px;
-    width: 350px;
+
 }
 
-.button__lire-index{
+.carte__texte {
+    color: var(--blanc);
+    font-family: var(--font-opensans);
+    font-weight: normal;
+    font-size: 0.875rem;
+
+}
+
+.carte__texte-musique {
+    color: var(--blanc);
+    font-family: var(--font-opensans);
+    font-weight: normal;
+    font-size: 0.875rem;
+    margin: 0px 20px;
+   
+}
+
+.button__lire-index {
     font-size: 0.938rem;
     color: var(--bleu-foncé-1);
-    background-color:var(--blanc);
+    background-color: var(--blanc);
     border-radius: 11px;
-    display: flex;
-    width: 130px;
-    height: 40px;
     padding: 20px 25px;
-    align-items: center;
-    gap: 10px;
-    justify-content: center;
-   
-    margin: 0px 260px 
-
+    align-self: flex-end;
 }

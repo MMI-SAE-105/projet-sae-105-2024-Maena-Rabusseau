@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     text-align: left;
-    width: 370px;
+  
     margin: 0px 15px;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -19,7 +19,7 @@
     display: flex;
     justify-content: center;
     text-align: left;
-    width: 370px;
+  
     margin: 0px 15px;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -33,7 +33,7 @@
     display: flex;
     justify-content: center;
     text-align: left;
-    width: 370px;
+  
     margin: 0px 15px;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -46,14 +46,14 @@
     display: flex;
     justify-content: center;
     text-align: left;
-    width: 370px;
+  
     margin: 0px 15px;
     margin-top: 20px;
     margin-bottom: 50px;
 }
 
 .image__ladouche {
-    width: 323px;
+  
     height: 359px;
 
     margin: 0 32px;
@@ -90,7 +90,7 @@
     background-color: var(--bleu-clair);
     border-radius: 12px;
     display: flex;
-    width: 250px;
+   
     height: 40px;
     padding: 20px 25px;
     align-items: center;
