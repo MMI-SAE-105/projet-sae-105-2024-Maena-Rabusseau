@@ -17,3 +17,39 @@ if (toggle && nav) {
     });
 }
 
+/*carousel*/
+const carousel = document.querySelector('.carousel');
+let startX = 0;
+let scrollLeft = 0;
+
+
+carousel.addEventListener('mousedown', (e) => {
+    carousel.style.cursor = 'grabbing';
+    startX = e.pageX - carousel.offsetLeft;
+    scrollLeft = carousel.scrollLeft;
+    carousel.isDown = true;
+});
+
+carousel.addEventListener('mouseleave', () => carousel.isDown = false);
+carousel.addEventListener('mouseup', () => carousel.isDown = false);
+
+
+carousel.addEventListener('mousemove', (e) => {
+    if (!carousel.isDown) return;
+    e.preventDefault();
+    const x = e.pageX - carousel.offsetLeft;
+    const walk = x - startX;
+    carousel.scrollLeft = scrollLeft - walk;
+});
+
+
+carousel.addEventListener('touchstart', (e) => {
+    startX = e.touches[0].clientX;
+    scrollLeft = carousel.scrollLeft;
+});
+
+carousel.addEventListener('touchmove', (e) => {
+    const x = e.touches[0].clientX;
+    const walk = x - startX;
+    carousel.scrollLeft = scrollLeft - walk;
+});
