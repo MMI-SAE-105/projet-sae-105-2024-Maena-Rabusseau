@@ -2,6 +2,7 @@
     background-color: var(--bleu-clair);
     color: var(--blanc);
     padding-top: 10px;
+   
 }
 
 .Prénom__nom {
@@ -64,3 +65,26 @@
 
     margin-left: 80px;
 }
+
+
+/*.image__bleu{
+
+
+    background-image: url('chemin/vers/ton-image.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover; 
+    height: 400px; 
+    width: 100%; 
+    padding: 20px; 
+
+    /*
+    z-index: 1;
+    display: flex;
+    justify-content: right;
+    margin-left: 60px;
+    background-blend-mode: darken;
+    opacity: 80%;
+    background:  lightgray 50%
+*/
+

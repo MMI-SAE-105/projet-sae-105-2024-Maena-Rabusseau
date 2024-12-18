@@ -37,6 +37,9 @@
   justify-content: center;
   text-align: left;
   width: 370px;
+  margin: 0px 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
    
 }
 .image__index{
@@ -87,6 +90,7 @@ margin: 0 32px;
     background-color: var( --bleu-foncé-1);
     border-radius: 20px;
     margin-bottom: 50px;
+    padding-top: 10px;
    
     
 
@@ -110,6 +114,7 @@ margin: 0 32px;
     font-size:0.875rem ;
     margin: 0px 20px;
     width: 360px;
+  
    
 }
 .carte__texte-musique{

@@ -1,43 +1,50 @@
 .menu {
+    
     visibility: hidden;
     display: flex;
     position: fixed;
     inset: 0;
     z-index: 1;
-    background-color: var(--bordeaux-clair);
+    background-color: var(--bleu-clair);
     color: white;
     flex-direction: column;
     justify-content: space-between;
 
     transform: translateX(100vw);
     transition: all 0.3s ease-in-out;
+    
 }
 
 .menu[aria-hidden="false"] {
     transform: translateX(0);
     visibility: visible;
+    
 }
 
 .menu__link {
     color: white;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 1.563rem;
     display: block;
+    
+    
 }
 
 
 .menu-btn {
-    
+    background-color: var(--bleu-clair);
 
     position: absolute;
-    top: 10px;  
-    right: 40px;  
-    width: 30px;
-    height: 30px;
+    top: 20px;  
+    right: 50px;  
+    width: 40px;
+    height: 40px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     z-index: 10;
+    margin-right: -35px;
+    
     
 
 }
@@ -45,9 +52,10 @@
 .menu-btn__bar,
 .menu-btn__bar::before,
 .menu-btn__bar::after {
+   
     content: "";
     background: var(--blanc);
-    height: 2px;
+    height: 3px;
     width: 100%;
     position: absolute;
     border-radius: 2px;
@@ -57,10 +65,12 @@
 }
 
 .menu-btn__bar::before {
+   
     top: -10px;
 }
 
 .menu-btn__bar::after {
+ 
     top: 10px;
 }
 
@@ -80,10 +90,52 @@
 }
 
 .menu__item{
-   
-    align-items: center;
-    padding: 10px;
-    margin: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    padding: 8px;
+    margin: 30px;
 margin-left: 10px;
 margin-right: 50px;
+list-style: none ;
+}
+
+
+
+
+
+
+/*.menu__link-livre{
+    color: white;
+    text-decoration: none;
+    font-size: 1.563rem;
+    display: block;
+   
+    margin: 30px;
+margin-left: 10px;
+margin-right: 50px;
+    */
+
+
+
+
+
+
+.menu__link-insta{
+    color: white;
+    font-size: 0.938rem;
+   display: flex;
+    margin-left: 260px;
+   margin-top: 10px;
+}
+.menu__link-facebook{
+    color: white;
+    font-size: 0.938rem;
+    display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 330px;
+margin-top: -45px;
+
+
 }
