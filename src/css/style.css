@@ -18,4 +18,5 @@
 
 /* Components */
 @import "components/menu.css";
-@import"components/index.css"
+@import"components/index.css";
+@import"components/La-douche.css" ;
