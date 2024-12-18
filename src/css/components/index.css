@@ -43,11 +43,51 @@
     width: 323px;
 height: 359px;
 border-radius: 20px 20px 0px 0px;
+margin: 0 32px;
 
 }
+
+.image__index-realisateur{
+    width: 323px;
+height: 448px;
+border-radius: 20px 20px 0px 0px;
+margin: 0 32px;
+
+}
+
+.image__index-film{
+    width: 323px;
+height: 448px;
+border-radius: 20px 20px 0px 0px;
+margin: 0 32px;
+
+}
+.image__index-livre{
+    width: 323px;
+height: 448px;
+border-radius: 20px 20px 0px 0px;
+margin: 0 32px;
+
+}
+.image__index-musique{
+    width: 323px;
+height:151.403px;
+border-radius: 20px 20px 0px 0px;
+margin: 0 32px;
+
+}
+
+
+
+
+
+
+
 .carte__article{
     background-color: var( --bleu-foncé-1);
     border-radius: 20px;
+    margin-bottom: 50px;
+   
     
 
 }
@@ -58,13 +98,29 @@ border-radius: 20px 20px 0px 0px;
     font-size: 1.25rem;
     display: flex;
     justify-content: left;
+    margin: 0px 20px;
+    margin-bottom: 20px; 
+    margin-top: 20px;
+    
 }
 .carte__texte{
     color: var(--blanc);
     font-family: var(--font-opensans);
     font-weight: normal;
     font-size:0.875rem ;
+    margin: 0px 20px;
+    width: 360px;
+   
 }
+.carte__texte-musique{
+    color: var(--blanc);
+    font-family: var(--font-opensans);
+    font-weight: normal;
+    font-size:0.875rem ;
+    margin: 0px 20px;
+    width: 350px;
+}
+
 .button__lire-index{
     font-size: 0.938rem;
     color: var(--bleu-foncé-1);
@@ -78,6 +134,6 @@ border-radius: 20px 20px 0px 0px;
     gap: 10px;
     justify-content: center;
    
-    margin: 0px 230px 
+    margin: 0px 260px 
 
 }

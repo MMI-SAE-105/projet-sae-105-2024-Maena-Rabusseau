@@ -1,41 +1,66 @@
-.footer{
+.footer {
     background-color: var(--bleu-clair);
     color: var(--blanc);
+    padding-top: 10px;
 }
-.Prénom__nom{
+
+.Prénom__nom {
     color: var(--blanc);
     font-family: var(--font-opensans);
     font-weight: normal;
     font-size: 1.25rem;
+    margin-top: 20px;
+    margin-left: 25px;
 
 }
 
+.footer__links{
+    
+    font-size: 1.25rem;
+    list-style: none ;
+    line-height: 2.5; 
+    
+}
 .footer__link{
-    color: var(--blanc);   
-    font-size: 1.25rem;
+    color: var(--blanc);
+    margin-top: 20px;
+    margin-left: -10px;
 }
 
 
-.reseaux__logo{
-    color: var(--blanc);   
-    
-}
-.projet__mmi{
-    color: var(--blanc);  
-    font-size: 1.25rem;
-    
-  
-}
-.reseaux__logo-mmi{
-margin-right: 10px;
+.reseaux__logo {
+    color: var(--blanc);
+
 }
 
-.reseaux__logo{
-   display: flex;
-   justify-content: center;
-   align-items: right;
+.projet__mmi {
+    color: var(--blanc);
+    font-size: 0.938rem;
+  margin-left: 15px;
+    margin-top: -5px;
+    margin-bottom:-30px;
+    width: 354px;
+   
+}
+
+.reseaux__logo-mmi {
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-left: 315px;
+}
+
+.reseaux__logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
     gap: 80px;
     margin: 15px;
-  
-   
+
+
+}
+
+.reseaux {
+
+    margin-left: 80px;
 }
