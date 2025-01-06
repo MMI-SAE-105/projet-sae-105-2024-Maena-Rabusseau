@@ -3,7 +3,7 @@
     color: var(--blanc);
     padding-top: 10px;
     margin-top: 20px;
-   
+
 }
 
 .Prénom__nom {
@@ -16,14 +16,15 @@
 
 }
 
-.footer__links{
-    
+.footer__links {
+
     font-size: 1.25rem;
-    list-style: none ;
-    line-height: 2.5; 
-    
+    list-style: none;
+    line-height: 2.5;
+
 }
-.footer__link{
+
+.footer__link {
     color: var(--blanc);
     margin-top: 20px;
     margin-left: -10px;
@@ -38,17 +39,17 @@
 .projet__mmi {
     color: var(--blanc);
     font-size: 0.938rem;
-  margin-left: 2px;
+    margin-left: 2px;
     margin-top: 5px;
-    margin-bottom:6px;
+    margin-bottom: 6px;
     width: 100%;
-   
+
 }
 
 .reseaux__logo-mmi {
     margin-top: 0px;
     margin-right: 10px;
-    margin-left: 315px;
+    margin-left: 355px;
 }
 
 .reseaux__logo {
@@ -66,26 +67,3 @@
 
     margin-left: 80px;
 }
-
-
-/*.image__bleu{
-
-
-    background-image: url('chemin/vers/ton-image.png');
-    background-repeat: no-repeat;
-    background-position: center; 
-    background-size: cover; 
-    height: 400px; 
-    width: 100%; 
-    padding: 20px; 
-
-    /*
-    z-index: 1;
-    display: flex;
-    justify-content: right;
-    margin-left: 60px;
-    background-blend-mode: darken;
-    opacity: 80%;
-    background:  lightgray 50%
-*/
-

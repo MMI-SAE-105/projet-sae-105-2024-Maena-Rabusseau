@@ -36,7 +36,8 @@
     font-size: 1.25rem;
     display: flex;
     justify-content: center;
-    text-align: left;;
+    text-align: left;
+    ;
     margin: 0px 10px;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -46,16 +47,21 @@
 .image__index {
     height: 359px;
     border-radius: 20px 20px 0px 0px;
-    display: flex; /* Active le mode Flexbox */
-    flex-direction: column; /* Aligne le texte et l'image verticalement */
-    align-items: center; /* Centre le contenu horizontalement */
-    text-align: center; /* Centre le texte */
-    padding: 20px; /* Ajoute des marges internes */
+    display: flex;
+    /* Active le mode Flexbox */
+    flex-direction: column;
+    /* Aligne le texte et l'image verticalement */
+    align-items: center;
+    /* Centre le contenu horizontalement */
+    text-align: center;
+    /* Centre le texte */
+    padding: 20px;
+    /* Ajoute des marges internes */
 
 }
 
 .image__index-realisateur {
-   
+
     height: 448px;
     border-radius: 20px 20px 0px 0px;
     margin: 0 32px;
@@ -63,7 +69,7 @@
 }
 
 .image__index-film {
- 
+
     height: 448px;
     border-radius: 20px 20px 0px 0px;
     margin: 0 32px;
@@ -71,7 +77,7 @@
 }
 
 .image__index-livre {
-   
+
     height: 448px;
     border-radius: 20px 20px 0px 0px;
     margin: 0 32px;
@@ -79,7 +85,7 @@
 }
 
 .image__index-musique {
-   
+
     height: 151.403px;
     border-radius: 20px 20px 0px 0px;
     margin: 0 32px;
@@ -126,7 +132,7 @@
     font-weight: normal;
     font-size: 0.875rem;
     margin: 0px 20px;
-   
+
 }
 
 .button__lire-index {
