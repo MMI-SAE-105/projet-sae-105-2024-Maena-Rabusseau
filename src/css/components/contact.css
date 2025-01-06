@@ -1,7 +1,22 @@
-.intro__apropos {
+.contact {
     display: flex;
-margin-left: 65px;
-margin-bottom: 25px;
+    flex-direction: column;
+    margin: 5px;
+    align-items: left;
+    padding: 5px;
+}
 
+/*page à propos*/
+.introduction {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 20px;
+
+}
+
+.avatar {
+    height: auto;
+    max-width: 10000px;
 
 }

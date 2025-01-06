@@ -3,6 +3,6 @@
     align-items: center;
     justify-content: center;
     height: 370px;
-    background: var(--bleu-clair) url(/assets/img/medias/photobleufooter.avif) no-repeat center;    
+    background: var(--bleu-clair) url(/assets/img/medias/photobleufooter.avif) no-repeat center;
     background-size: cover;
 }
