@@ -15,3 +15,6 @@
     margin-top: -240px;
 
 }
+.header__menu{
+    background-color: var(--bleu-clair);
+}

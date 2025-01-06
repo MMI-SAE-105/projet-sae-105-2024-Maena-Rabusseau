@@ -1,4 +1,5 @@
 .en {
+    background-color: var(--bleu-clair);
     color: var(--blanc);
     font-family: var(--font-opensans);
     font-size: 1.5rem;
@@ -11,6 +12,7 @@
 
 
 .fr {
+    background-color: var(--bleu-clair);
     color: var(--blanc);
     font-family: var(--font-opensans);
     font-size: 1.5rem;
@@ -48,15 +50,11 @@
     height: 359px;
     border-radius: 20px 20px 0px 0px;
     display: flex;
-    /* Active le mode Flexbox */
     flex-direction: column;
-    /* Aligne le texte et l'image verticalement */
     align-items: center;
-    /* Centre le contenu horizontalement */
     text-align: center;
-    /* Centre le texte */
     padding: 20px;
-    /* Ajoute des marges internes */
+   
 
 }
 

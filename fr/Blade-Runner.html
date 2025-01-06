@@ -11,21 +11,6 @@
 </head>
 
 <body>
-
-
-    <hero class="hero">
-        <a href="/fr/index.html">
-            <img class="header__logo-image" src="/assets/img/icons/favicon-96x96.png" alt="Logo du site GreenDouch’"
-                aria-hidden="true" /></a>
-
-        <p>
-            <a class="fr" href="/fr/index.html">Fr/</a>
-            <a class="en" href="/en/index.html">En</a>
-        </p>
-
-
-
-    </hero>
     <header class="header">
         <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
             <span class="menu-btn__bar" aria-hidden="true"></span>
@@ -59,26 +44,36 @@
                 <li class="menu__item">
                     <a class="menu__link" href="A-propos.html">À propos</a>
                 </li>
-                <a class="menu__link-insta" href="https://www.instagram.com">
+                <a class="menu__link-insta" href="https://www.instagram.com" aria-label="Visitez notre Instagram">
                     <p> Instagram</p>
                 </a>
-                <a class="menu__link-facebook" href="https://www.facebook.com">
+                <a class="menu__link-facebook" href="https://www.facebook.com" aria-label="Visitez notre Facebook">
                     <p> Facebook</p>
                 </a>
             </ul>
         </nav>
 
 
-        <ul class="Header__Menu" role="menu" aria-label="Navigation principale"></ul>
+        <ul class="header__menu" role="menu" aria-label="Navigation principale"></ul>
 
-
-
-        <div class="hero">
-            <div class="hero-content">
-                <h1 class="hero__titre">Un film précurseur Blade Runner 2049 </h1>
-            </div>
-        </div>
+        <p>
+            <a class="fr" href="/fr/index.html" aria-label="Changer la langue en français">Fr/</a>
+            <a class="en" href="/en/index.html" aria-label="Changer la langue en anglais">En</a>
+        </p>
     </header>
+
+    <div class="hero">
+        <a href="/fr/index.html">
+            <img class="header__logo-image" src="/assets/img/icons/favicon-96x96.png" alt="Logo du site GreenDouch’"
+                aria-hidden="true" /></a>
+
+
+        <h1 class="hero__titre">Un film précurseur Blade Runner 2049 </h1>
+
+    </div>
+
+    </div>
+
     <main role="main">
         <div>
 
@@ -291,10 +286,12 @@
                 aria-label="Envoyer un email à Maéna">Envoyer un email</a>
 
             <ul class="footer__links">
-                <li> <a class="footer__link" href="Galerie.html">Galerie</a></li>
-                <li> <a class="footer__link" href="Contact.html">Contact</a></li>
-                <li> <a class="footer__link" href="A-propos.html">À propos</a></li>
-                <li> <a class="footer__link" href="Autre-projets.html">Autres projets</a></li>
+                <li> <a class="footer__link" href="Galerie.html" aria-label="Voir la galerie">Galerie</a></li>
+                <li> <a class="footer__link" href="Contact.html" aria-label="Contactez-nous">Contact</a></li>
+                <li> <a class="footer__link" href="A-propos.html" aria-label="En savoir plus sur le site">À propos</a>
+                </li>
+                <li> <a class="footer__link" href="Autre-projets.html" aria-label="Voir d'autres projets">Autres
+                        projets</a></li>
 
             </ul>
 
@@ -331,63 +328,6 @@
 
         </div>
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </body>

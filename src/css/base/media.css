@@ -1,8 +1,14 @@
 img {
     max-width: 100%;
     height: auto;
+    margin: 0 auto;
 }
 
+video{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
 .logo {
     max-width: 100%;
     height: auto;

@@ -4,7 +4,7 @@
     display: flex;
     position: fixed;
     inset: 0;
-    z-index: 1;
+    z-index: 3;
     background-color: var(--bleu-clair);
     color: white;
     flex-direction: column;
