@@ -11,14 +11,13 @@
 
 
 .header__logo-image {
-    background-color: var(--gris);
+
     border-radius: 100%;
     display: flex;
-    justify-content: left;
-    margin-right: auto;
-    margin-bottom: 270px;
-    margin-left: 10px;
 
+    margin-right: 630px;
+    margin-bottom: 270px;
+    max-width: 100%
 }
 
 .header__menu {

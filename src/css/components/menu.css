@@ -122,21 +122,24 @@ margin-right: 50px;
 
 
 .menu__link-insta {
+    position: absolute;
     color: white;
     font-size: 0.938rem;
     display: flex;
-    margin-left: 260px;
-    margin-top: 9px;
+    bottom: 120px;
+    right: 250px;
+    flex-direction: column;
+
 }
 
 .menu__link-facebook {
+    position: absolute;
     color: white;
     font-size: 0.938rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 330px;
-    margin-top: -45px;
 
+    bottom: 120px;
+    left: 250px;
+    flex-direction: column;
 
 }
