@@ -1,7 +1,11 @@
 .header {
     background-color: var(--bleu-clair);
+    padding-top: 30px;
     margin: 0;
     padding-top: 30px;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 
@@ -11,10 +15,12 @@
     border-radius: 100%;
     display: flex;
     justify-content: left;
-    margin-right: 280px;
-    margin-top: -240px;
+    margin-right: auto;
+    margin-bottom: 270px;
+    margin-left: 10px;
 
 }
-.header__menu{
+
+.header__menu {
     background-color: var(--bleu-clair);
 }

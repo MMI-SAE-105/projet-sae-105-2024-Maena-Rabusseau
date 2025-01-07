@@ -26,6 +26,12 @@
     z-index: 2;
 }
 
-.hero-title {
- 
+.hero__titre {
+    position: relative;
+    color: var(--blanc);
+    font-family: var(--font-quicksand);
+    font-size: var(2rem);
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
 }

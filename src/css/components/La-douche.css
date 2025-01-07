@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     text-align: left;
-  
+
     margin: 0px 15px;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -19,7 +19,7 @@
     display: flex;
     justify-content: center;
     text-align: left;
-  
+
     margin: 0px 15px;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -33,7 +33,7 @@
     display: flex;
     justify-content: center;
     text-align: left;
-  
+
     margin: 0px 15px;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -46,14 +46,14 @@
     display: flex;
     justify-content: center;
     text-align: left;
-  
+
     margin: 0px 15px;
     margin-top: 20px;
     margin-bottom: 50px;
 }
 
 .image__ladouche {
-  
+
     height: 359px;
 
     margin: 0 32px;
@@ -90,7 +90,7 @@
     background-color: var(--bleu-clair);
     border-radius: 12px;
     display: flex;
-   
+
     height: 40px;
     padding: 20px 25px;
     align-items: center;
@@ -108,6 +108,7 @@
 .texte__frise-1970 {
 
     display: flex;
+    flex-direction: column;
     justify-content: left;
     text-align: left;
     margin-left: 2px;
@@ -117,6 +118,7 @@
 
 .image__frise-1970 {
     display: flex;
+    flex-direction: column;
     justify-content: right;
     text-align: right;
     margin-left: 190px;
@@ -125,13 +127,14 @@
 .texte__frise-1980 {
 
     display: flex;
-
+    flex-direction: column;
     margin-left: 190px;
     margin-top: -160px;
 }
 
 .image__frise-1980 {
     display: flex;
+    flex-direction: column;
     justify-content: right;
     text-align: right;
     margin-left: 10px;
@@ -140,6 +143,7 @@
 
 .image__frise-1990 {
     display: flex;
+    flex-direction: column;
     justify-content: right;
     text-align: right;
     margin-left: 190px;
@@ -148,6 +152,7 @@
 
 .texte__frise-1990 {
     display: flex;
+    flex-direction: column;
     justify-content: right;
     text-align: right;
     margin-right: 190px;
@@ -157,6 +162,7 @@
 
 .image__frise-2000 {
     display: flex;
+    flex-direction: column;
     justify-content: right;
     text-align: right;
     margin-left: 10px;
@@ -165,13 +171,14 @@
 
 .texte__frise-2000 {
     display: flex;
-
+    flex-direction: column;
     margin-left: 190px;
     margin-top: -170px;
 }
 
 .texte__frise-2010 {
     display: flex;
+    flex-direction: column;
     justify-content: right;
     text-align: right;
     margin-right: 190px;
@@ -181,6 +188,7 @@
 .image__frise-2010 {
 
     display: flex;
+    flex-direction: column;
     justify-content: right;
     text-align: right;
     margin-left: 190px;
@@ -189,29 +197,35 @@
 
 .texte__frise-2020 {
     display: flex;
-
+    flex-direction: column;
     margin-left: 190px;
     margin-top: -120px;
 }
-.image__frise-2020{
+
+.image__frise-2020 {
     display: flex;
+    flex-direction: column;
     justify-content: right;
     text-align: right;
     margin-left: 10px;
     margin-top: 45px;
 
 }
-.texte__frise-futur{
+
+.texte__frise-futur {
     display: flex;
+    flex-direction: column;
     justify-content: right;
     text-align: right;
     margin-right: 190px;
     margin-top: -210px;
 
 }
-.image__frise-futur{
-    
+
+.image__frise-futur {
+
     display: flex;
+    flex-direction: column;
     justify-content: right;
     text-align: right;
     margin-left: 190px;
