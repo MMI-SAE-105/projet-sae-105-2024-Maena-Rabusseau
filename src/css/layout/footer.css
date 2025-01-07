@@ -47,9 +47,11 @@
 }
 
 .reseaux__logo-mmi {
-    margin-top: 0px;
-    margin-right: 10px;
-    margin-left: 355px;
+    height: auto;
+
+    margin-left: 580px;
+    position: relative;
+    max-width: 100%;
 }
 
 .reseaux__logo {
