@@ -105,54 +105,48 @@
     margin-bottom: 40px;
 }
 
-.texte__frise-1970 {
+/* css frise*/
 
+/*.frise{
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    text-align: left;
+}
+
+.texte__frise-1970 {
+    align-items: left;
     margin-left: 2px;
     margin-top: -190px;
 
 }
 
 .image__frise-1970 {
-    display: flex;
-    flex-direction: column;
     justify-content: right;
-    text-align: right;
+    align-items: right;
     margin-left: 190px;
 }
 
 .texte__frise-1980 {
-
-    display: flex;
-    flex-direction: column;
+    justify-content: right;
+   align-items: right;
     margin-left: 190px;
     margin-top: -160px;
 }
 
 .image__frise-1980 {
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    text-align: right;
+    align-items: flex-end;
+    align-items: right;
     margin-left: 10px;
     margin-top: 45px;
 }
 
 .image__frise-1990 {
-    display: flex;
-    flex-direction: column;
     justify-content: right;
-    text-align: right;
+   align-items: right;
     margin-left: 190px;
     margin-top: 45px;
 }
 
 .texte__frise-1990 {
-    display: flex;
-    flex-direction: column;
     justify-content: right;
     text-align: right;
     margin-right: 190px;
@@ -161,8 +155,6 @@
 }
 
 .image__frise-2000 {
-    display: flex;
-    flex-direction: column;
     justify-content: right;
     text-align: right;
     margin-left: 10px;
@@ -170,15 +162,13 @@
 }
 
 .texte__frise-2000 {
-    display: flex;
-    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
     margin-left: 190px;
     margin-top: -170px;
 }
 
 .texte__frise-2010 {
-    display: flex;
-    flex-direction: column;
     justify-content: right;
     text-align: right;
     margin-right: 190px;
@@ -186,9 +176,6 @@
 }
 
 .image__frise-2010 {
-
-    display: flex;
-    flex-direction: column;
     justify-content: right;
     text-align: right;
     margin-left: 190px;
@@ -196,15 +183,13 @@
 }
 
 .texte__frise-2020 {
-    display: flex;
-    flex-direction: column;
+    justify-content: left;
+    text-align: left;
     margin-left: 190px;
     margin-top: -120px;
 }
 
 .image__frise-2020 {
-    display: flex;
-    flex-direction: column;
     justify-content: right;
     text-align: right;
     margin-left: 10px;
@@ -213,8 +198,6 @@
 }
 
 .texte__frise-futur {
-    display: flex;
-    flex-direction: column;
     justify-content: right;
     text-align: right;
     margin-right: 190px;
@@ -223,12 +206,45 @@
 }
 
 .image__frise-futur {
-
-    display: flex;
-    flex-direction: column;
     justify-content: right;
     text-align: right;
     margin-left: 190px;
     margin-top: 45px;
     margin-bottom: 20px;
+}*/
+
+.frise {
+    display: flex;
+    flex-direction: column;
+}
+
+.row__frise-droite {
+    display: flex;
+    padding-left: 2px;
+
+
+
+}
+
+.row__frise-gauche {
+    display: flex;
+    margin-right: 2px;
+}
+
+.row__texte-droite {
+    padding-left: 20px;
+    width: 184px;
+    height: 208px;
+    background-color: var(--couleur-frise);
+    border-radius: 34px;
+    margin: 8px;
+}
+
+.row__texte-gauche {
+    padding-left: 20px;
+    width: 184px;
+    height: 208px;
+    background-color: var(--couleur-frise-2);
+    border-radius: 34px;
+    margin: 8px;
 }
