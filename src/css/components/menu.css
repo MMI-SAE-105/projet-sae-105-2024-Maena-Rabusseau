@@ -12,7 +12,8 @@
 
     transform: translateX(100vw);
     transition: all 0.3s ease-in-out;
-
+    align-items: center;
+    
 }
 
 .menu[aria-hidden="false"] {
@@ -25,7 +26,9 @@
     color: white;
     text-decoration: none;
     font-size: 1.563rem;
+    text-align: center;
     display: block;
+   
 
 
 }
@@ -44,6 +47,7 @@
     align-items: center;
     z-index: 10;
     margin-right: -35px;
+    
 
 
 
@@ -91,32 +95,16 @@
 
 .menu__item {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+ 
     padding: 8px;
-    margin: 30px;
-    margin-left: 10px;
-    margin-right: 50px;
-    list-style: none;
-}
-
-
-
-
-
-
-/*.menu__link-livre{
-    color: white;
-    text-decoration: none;
-    font-size: 1.563rem;
-    display: block;
+    margin: 15px;
    
-    margin: 30px;
-margin-left: 10px;
-margin-right: 50px;
-    */
-
-
+    list-style: none;
+    text-decoration: none;
+}
 
 
 
@@ -126,9 +114,11 @@ margin-right: 50px;
     color: white;
     font-size: 0.938rem;
     display: flex;
-    bottom: 120px;
-    right: 250px;
+    bottom: 10px;
+    right: 50px;
     flex-direction: column;
+    text-decoration: none;
+    align-items: center;
 
 }
 
@@ -137,9 +127,11 @@ margin-right: 50px;
     color: white;
     font-size: 0.938rem;
     display: flex;
-
-    bottom: 120px;
-    left: 250px;
+    bottom: 20px;
+    left: 50px;
     flex-direction: column;
+    text-decoration: none;
+    align-items: center;
 
 }
+
