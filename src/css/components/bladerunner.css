@@ -18,3 +18,23 @@
     padding-left: 50px;
     padding-right: 50px;
 }
+
+.video{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/*page musique*/
+
+.video__musique {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
