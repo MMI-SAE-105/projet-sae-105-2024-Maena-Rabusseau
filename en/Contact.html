@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Contact </title>
+
 
     <link rel="stylesheet" href="/src/css/style.css">
     <script type="module" src="/src/js/script.js"></script>
-    
 </head>
+
+
 <body>
+
     <header class="header">
 
+        <a class="fr" href="/fr/index.html" aria-label="Changer la langue en français">Fr/</a>
+        <a class="en" href="/en/index.html" aria-label="Changer la langue en anglais">En</a>
 
-        <img class="header__logo-image" src="/assets/img/icons/favicon-96x96.png" alt="Logo du site GreenDouch’"
-            aria-hidden="true" />
+
+
+
+
 
         <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
             <span class="menu-btn__bar" aria-hidden="true"></span>
@@ -25,77 +33,79 @@
             <ul class="menu__list list-unstyled">
 
                 <li class="menu__item">
-                    <a class="menu__link" href="The-shower.html">The shower object</a>
+                    <a class="menu__link" href="La-douche.html">The shower <br> object </a>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link" href="Director.html">Director Ridley Scott </a>
+                    <a class="menu__link" href="Realisateur.html">Director<br> Ridley Scott </a>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link" href="Blade-Runner.html">Film Blade Runner 2049 </a>
+                    <a class="menu__link" href="Blade-Runner.html">Film <br> Blade Runner 2049 </a>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link" href="Book.html">Guide to water 
-                    </a>
+                    <a class="menu__link" href="Livre.html">Book <br> Guide to water</a>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link" href="Music.html">Phoenix Ash Music </a>
+                    <a class="menu__link" href="Musique.html">Phoenix Ash <br> Music </a>
                 </li>
                 <li class="menu__item">
                     <a class="menu__link" href="Contact.html">Contact</a>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link" href="Other-projects.html">Other projects</a>
+                    <a class="menu__link" href="Autre-projets.html">Other projects</a>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link" href="About.html">About</a>
+                    <a class="menu__link" href="A-propos.html">About</a>
                 </li>
-                <a class="menu__link-insta" href="https://www.instagram.com">
+                <a class="menu__link-insta" href="https://www.instagram.com" aria-label="Visit our Instagram">
                     <p> Instagram</p>
                 </a>
-                <a class="menu__link-facebook" href="https://www.facebook.com">
+                <a class="menu__link-facebook" href="https://www.facebook.com" aria-label="Visit our Facebook">
                     <p> Facebook</p>
                 </a>
-        
             </ul>
         </nav>
-     
-        <ul class="Header__Menu" role="menu" aria-label="Main navigation"></ul>
 
 
-        <p>
-            <a class="en" href="/en/index.html">En</a>
-            <a class="fr" href="/fr/index.html">Fr/</a>
-           </p>
+        <ul class="header__menu" role="menu" aria-label="Navigation principale"></ul>
 
 
-
-        <div class="header__titre">
-            <h1 class="header__titre">Contact </h1>
-        </div>
     </header>
+
+    <div class="hero">
+        <a href="/fr/index.html">
+            <img class="header__logo-image" src="/assets/img/icons/favicon-96x96.png" alt="GreenDouch' site logo"
+                aria-hidden="true" /></a>
+
+
+        <h1 class="hero__titre">Contact</h1>
+    </div>
+
+
 
 
     <main role="main">
-        <p>If you have any questions or if the site is not working, please do not hesitate to contact
-            me.  </p>
+        <p class="intro__page">If you have any questions or if the site is not working, please do not hesitate to
+            contact
+            me. </p>
 
         <div class="contact">
-            <label for="prenom">First name* :</label>
-            <input type="text" id="prenom" name="prenom">
-           
+            <label class="contact" for="prenom">First name* :</label>
+            <input class="contact" type="text" id="prenom" name="prenom">
 
-            <label for="nom">Last name* :</label>
-            <input type="text" id="nom" name="nom">
-        
 
-            <label for="mail">Email address* : </label>
-            <input type="text" id="mail" name="mail">
-         
-            <label for="message">Message* </label>
-            <input type="text" id="message" name="message">
-          
+            <label class="contact" for="nom">Last name* : </label>
+            <input class="contact" type="text" id="nom" name="nom">
 
-            <button class="button__musique" aria-label="Envoyer le message ">Send</button>
+
+            <label class="contact" for="mail">Email address* : </label>
+            <input class="contact" type="text" id="mail" name="mail">
+
+            <label class="contact" for="message">Message* </label>
+            <input class="contact" type="text" id="message" name="message">
+
+            <!-- 
+            <button class="button__envoyer" aria-label="Envoyer le message ">Envoyer </button> -->
+            <a class="button" aria-label="Send the message."> Send </a>
 
         </div>
 
@@ -104,24 +114,18 @@
 
 
 
-
-
-
-
-
-
-    <footer class="footer" role="contentinfo" aria-label="Footer">
+    <footer class="footer" role="contentinfo" aria-label="Pied de page">
         <div class="footer__content">
             <h2 class="Prénom__nom"> Maéna Rabusseau</h2>
-            <h2 class="Prénom__nom">Group C1</h2>
-            <a class="Prénom__nom" href="mailto:maena.rabusseau@edu.univ-fcomte.fr"
-                aria-label="Send an email to Maéna">Send an email</a>
+            <h2 class="Prénom__nom">Groupe C1</h2>
+            <h2 class="Prénom__nom" href="mailto:maena.rabusseau@edu.univ-fcomte.fr"
+                aria-label="Send an email to Maéna">Send an email</h2>
 
             <ul class="footer__links">
                 <li> <a class="footer__link" href="Galerie.html">Gallery</a></li>
                 <li> <a class="footer__link" href="Contact.html">Contact</a></li>
-                <li> <a class="footer__link" href="A-propos.html">About</a></li>
-                <li> <a class="footer__link" href="Autre-projets.html">Other projects</a></li>
+                <li> <a class="footer__link" href="About.html">About</a></li>
+                <li> <a class="footer__link" href="Other-projects.html">Other projects</a></li>
 
             </ul>
 
@@ -131,28 +135,34 @@
             <a class="reseaux__lien" href="https://www.instagram.com" aria-label="Follow us on Instagram"
                 target="_blank" rel="noopener noreferrer">
 
-                <img class="reseaux__logo" src="/assets/img/logos/logoinstagram.avif" alt="Instagram logo">
+                <img class="reseaux__logo" src="/assets/img/logos/logoinstagram.avif" alt="Logo Instagram">
 
             </a>
-            <a class="reseaux__lien" href="https://www.facebook.com" aria-label="Follow us on Facebook"
-                target="_blank" rel="noopener noreferrer">
-                <img class="reseaux__logo" src="/assets/img/logos/logofacebook.avif" alt="Facebook logo">
+            <a class="reseaux__lien" href="https://www.facebook.com" aria-label="Follow us on Facebook" target="_blank"
+                rel="noopener noreferrer">
+                <img class="reseaux__logo" src="/assets/img/logos/logofacebook.avif" alt="Logo Facebook">
             </a>
             <a class="reseaux__lien" href="https://www.linkedin.com/in/maéna-rabusseau-681b37336"
                 aria-label="Follow us on LinkedIn" target="_blank" rel="noopener noreferrer">
                 <img class="reseaux__logo" src="/assets/img/logos/logolinkedin.avif" alt="Logo linkedin">
             </a>
-            <p>Project carried out in 2024 as part of an educational exercise in the department <a
+        </div>
+        <div class="footer__mentions">
+            <p class="projet__mmi">Project carried out in 2024 as part of an educational exercise in the department <a
+                    class="projet__mmi"
                     href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/"
-                    aria-label="Find out more about the MMI Montbéliard programme">MMI of Montbéliard</a></p>
+                    aria-label="Find out more about the MMI Montbéliard programme"> MMI of
+                    Montbéliard</a></p>
 
 
-            <a class="reseaux__lien"
+            <a class="reseaux__lien-mmi"
                 href="https://www.iut-nfc.univ-fcomte.fr/b-u-t-metiers-du-multimedia-et-de-linternet/">
-                <img class="reseaux__logo" src="/assets/img/logos/mmilogoblanc1.avif" alt="MMI Montbéliard">
+                <img class="reseaux__logo-mmi" src="/assets/img/logos/mmilogoblanc1.avif" alt="MMI Montbéliard">
             </a>
 
         </div>
     </footer>
+
 </body>
+
 </html>
