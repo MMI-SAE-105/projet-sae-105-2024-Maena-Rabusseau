@@ -32,6 +32,7 @@
     font-family: var(--font-quicksand);
     font-size: var(2rem);
     font-weight: normal;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    margin-right: 150px;
+    width: 100%;
 }

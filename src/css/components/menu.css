@@ -1,5 +1,4 @@
 .menu {
-
     visibility: hidden;
     display: flex;
     position: fixed;
@@ -9,17 +8,14 @@
     color: white;
     flex-direction: column;
     justify-content: space-between;
-
     transform: translateX(100vw);
-    transition: all 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out; /* Transition uniquement sur la transformation */
     align-items: center;
-    
 }
 
 .menu[aria-hidden="false"] {
     transform: translateX(0);
     visibility: visible;
-
 }
 
 .menu__link {
@@ -28,15 +24,10 @@
     font-size: 1.563rem;
     text-align: center;
     display: block;
-   
-
-
 }
-
 
 .menu-btn {
     background-color: var(--bleu-clair);
-
     position: absolute;
     top: 20px;
     right: 50px;
@@ -45,18 +36,13 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    z-index: 10;
-    margin-right: -35px;
-    
-
-
-
+    margin-right: -30px; /* Enlève la marge négative */
+    cursor: pointer; /* Ajoute un curseur pointer pour l'interaction */
 }
 
 .menu-btn__bar,
 .menu-btn__bar::before,
 .menu-btn__bar::after {
-
     content: "";
     background: var(--blanc);
     height: 3px;
@@ -69,22 +55,18 @@
 }
 
 .menu-btn__bar::before {
-
     top: -10px;
 }
 
 .menu-btn__bar::after {
-
     top: 10px;
 }
-
 /* Technique pour transformer les 3 barres du bouton de menu en croix
   Ne pas oublier d'ajouter une transition plus haut pour l'animation */
 .menu-btn[aria-expanded="true"] .menu-btn__bar,
 .menu-btn[aria-expanded="true"] .menu-btn__bar::before,
 .menu-btn[aria-expanded="true"] .menu-btn__bar::after {
     transform: rotate(135deg);
-
 }
 
 .menu-btn[aria-expanded="true"] .menu-btn__bar::before,
@@ -98,28 +80,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
- 
     padding: 8px;
     margin: 15px;
-   
     list-style: none;
-    text-decoration: none;
+    margin-right:20px;
+    margin-top: 30px;
 }
-
-
-
 
 .menu__link-insta {
     position: absolute;
     color: white;
     font-size: 0.938rem;
     display: flex;
-    bottom: 10px;
-    right: 50px;
-    flex-direction: column;
     text-decoration: none;
-    align-items: center;
-
+    margin-top: 800px;
+    margin-left: -300px;
+    
 }
 
 .menu__link-facebook {
@@ -127,11 +103,8 @@
     color: white;
     font-size: 0.938rem;
     display: flex;
-    bottom: 20px;
-    left: 50px;
-    flex-direction: column;
     text-decoration: none;
-    align-items: center;
-
+    margin-top: 800px;
+    margin-left: 280px;
+    
 }
-
