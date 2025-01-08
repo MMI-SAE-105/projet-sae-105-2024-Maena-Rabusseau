@@ -53,12 +53,12 @@
 }
 
 .reseaux__logo-mmi {
+    display: flex;
     height: auto;
-    margin-left: 320px;
+    margin-right: 500px;
     margin-top: -10px;
-
-
     max-width: 100%;
+    margin: 4px;
 }
 
 .reseaux__logo {
